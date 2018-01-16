@@ -1,0 +1,80 @@
+body{
+    font-family: Arial;
+}
+
+.GUI{
+    background: rgba(0, 0, 0, 0.5);
+    width: 15%;
+    height: auto;
+    position: fixed;
+    color: #FFFFFF;
+    padding: 0 10px;
+}
+
+.selected{
+    box-shadow: 0 0 10px yellow !important;
+}
+
+.field{
+    position: absolute;
+    z-index: -10;
+}
+
+.field.selected{
+    z-index: -9 !important;
+}
+
+.wizard{
+    font-family: Arial;
+    color: #0c0898;
+    background-color: #f5eded;
+    z-index: -5;
+}
+
+.wizard.selected{
+    z-index: -4 !important;
+}
+
+.marais{
+    background-color: #475619;
+}
+
+.foret{
+    background-color: #196a1e;
+}
+
+.taiga{
+    background-color: #89cd82;
+}
+
+.desert{
+    background-color: #c1b974;
+}
+
+.plaine{
+    background-color: #5c8830;
+}
+
+.toundra{
+    background-color: #b8ffd8;
+}
+
+.jungle{
+    background-color: #44aa2a;
+}
+
+.ocean{
+    background-color: #333986;
+}
+
+.colline{
+    background-color: #64a443;
+}
+
+.montagne{
+    background-color: #727272;
+}
+
+.enfer{
+    background-color: #9c0b11;
+}
